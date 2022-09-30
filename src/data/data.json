@@ -1,0 +1,103 @@
+{
+    "presentacion":[
+        {
+            "title":"Quien soy?",
+        "body": "<p> Soy Esteban, un loco de 28 años de Santa Rosa, La Pampa. Me considero informático por vocación y emprendedor por naturaleza. </p><p> Cuando terminé el secundario, fui a la universidad a estudiar Profesorado en Matemáticas y ahí fue cuando descubrí la programación y me enamoré. Por causas económicas, tuve que dejar la universidad pero siempre intenté estar informado en el rubro, me considero una persona autodidacta y me encanta trabajar en el mercado TI. </p><p> Mi hobbie es patinar, así como me enamoré de la programación también me enamoré de los rollers y doy clases de rollers en Urban Rollers La Pampa hace ya varios años. </p><p> Actualmente, en el desarrollo web tengo conocimientos amplios en diferentes tecnologías y una base sólida en la lógica de programación. </p>"
+        }
+    ],
+
+    "tecnologias":[
+
+        {
+        "stack": "HTML5 - CSS3 - Bootstrap - Javascript",
+        "progress": "80"
+        },
+        
+        {
+        "stack": "React - Gatsby",
+        "progress": "75"
+        },
+                
+        {
+        "stack": "Firebase - Strapi",
+        "progress": "70"
+        },
+
+        {
+        "stack": "Node - Express",
+        "progress": "25"
+        }
+    ],
+
+    "rollercarrousel":[
+
+        {
+        "titulo": "Pasión",
+        "parrafo":"La pasión mueve montañas.",
+        "imagen": "../images/roller-1.jpg"
+        },
+        
+        {
+        "titulo": "Compromiso",
+        "parrafo":"El compromiso hace al crecimiento.",
+        "imagen": "../images/roller-2.jpg"
+        },
+        
+        {
+        "titulo": "Trascendecia",
+        "parrafo":"El futuro lo creamos nosotros.",
+        "imagen": "../images/roller-3.jpg"
+        }
+        
+    ],
+    "rollertext":[
+        {
+            "title":"Profe / Organizador / Dirigente",
+            "body":"<p>Los rollers son mi segunda pasión y gracias a este emprendimiento puedo lograr que crezca el deporte. </p><p> Empecé creando un grupo llamado Uruban Rollers donde daba clases de rollers para niños y adultos. </p><p> En un principio comenzamos en la cancha de basquet de la laguna Don Tomas en Santa Rosa, La Pampa. Un lugar icónico para los rolleros de la ciudad ya que es uno de los pocos donde podemos practicar gracias al piso y las dimensiones. Pero pronto el espacio no nos alcanzó. </p><p> Dentro del mundo del patinaje en linea hay varias disciplinas, entre ellas encontramos Freestyle Slalom y Roller Hockey. El primero lo podemos practicar al aire libre, y es un deporte individual donde cada uno tiene que mejorar y aprender trucos nuevos, el segundo es un deporte en equipo, parecido al hockey sobre hielo pero sin tanto contacto. </p><p> Inicialmente, las clases fueron enfocadas en slalom, pero con el tiempo fuimos creando un equipo de hockey y terminamos agregando esta disciplina. Actualmente, tenemos equipos de roller hockey de menores y mayores, y brindamos clases de slalom para aquellos que quieran iniciar en el deporte. </p><p> El hecho de crear un equipo de roller hockey nos planteó varios inconvenientes: por un lado adquirir el equipamiento para que pueda comenzar cualquier persona sin importar si no tiene lo básico y por otro lado encontrar un espacio apto para poder practicar. </p><p> Probamos varios salones y varios clubes con los pocos horarios que nos brindaban. Creamos primero el equipo de mayores ya que los horarios que teníamos disponibles eran a partir de las 21hs, y con mucha perseverancia y esfuerzo pudimos conseguir un espacio con un horario más temprano para poder armar el equipo de roller hockey de menores. </p><p> También nos pusimos en contacto con la Federación Pampeana de Patín para crear el comité de roller hockey, del cual soy presidente y a través del mismo creamos la primera liga pampeana de roller hockey. </p><p> Hace ya 10 años que soy rollero y 4 años que creé Urban Roller, no me imaginé todo lo que podía lograr, pero éste es recién el principio...</p>"
+        }
+    ],
+    "project":[
+
+        {
+        "titulo": "Segundo porfolio",
+        "parrafo":"Actualización del porfolio para poder mostrar las nuevas habilidades adquiridas de forma más ordenada.",
+        "stack":"Gatsby",
+        "imagen": "../images/segundo-porfolio.jpg",
+        "imagencel": "../images/segundo-porfolio-celu.jpg"
+        },
+
+        {
+        "titulo": "Liga de veteranos",
+        "parrafo":"Pagina para la liga de veteranos de La Pampa para poder publicar los resultados desde un sistema de administración.",
+        "stack":"React - Strapi",
+        "imagen": "../images/liga-veteranos.jpg",
+        "imagencel": "../images/liga-veteranos-celu.jpg"
+        },
+
+        {
+        "titulo": "Primer porfolio",
+        "parrafo":"Mi primer porfolio, creado para demostrar mis conocimientos web de manera mas explicita.",
+        "stack":"HTML - CSS - Javascript",
+        "imagen": "../images/primer-porfolio.jpg",
+        "imagencel": "../images/primer-porfolio-celu.jpg"
+        },
+
+        {
+        "titulo": "Blog de café",
+        "parrafo":"Otro de mis primeros proyectos creados como practica. Simula una blog de café con cursos.",
+        "stack":"HTML - CSS - Javascript",
+        "imagen": "../images/blog-cafe.jpg",
+        "imagencel": "../images/blog-cafe-celu.jpg"
+        },
+
+        {
+        "titulo": "Tienda de muebles",
+        "parrafo":"Uno de mis primeros proyectos creados como practica. Simula una tienda de muebles",
+        "stack":"HTML - CSS",
+        "imagen": "../images/tienda-muebles.jpg",
+        "imagencel": "../images/tienda-muebles-celu.jpg"
+        }
+
+    ]
+    
+}

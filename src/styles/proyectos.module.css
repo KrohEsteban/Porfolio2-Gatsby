@@ -1,0 +1,39 @@
+.proyectitle{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.proyectitle h3{
+    padding: 60px 0px;
+}
+
+.gitywsp{
+    color: #b85b22
+}
+
+.cuadrocel{
+    border: solid black 7px;
+    margin: 20px;
+}
+.cuadrodescktop{
+    border: solid black 7px;
+    margin: 20px;
+}
+
+.proyectcard{
+    padding-top: 40px;
+}
+
+@media (max-width: 575px){
+
+    .cuadrocel{
+        border: solid black 5px;
+        margin: 5px;
+    }
+    .cuadrodescktop{
+        border: solid black 5px;
+        margin: 5px;
+    }
+    
+}

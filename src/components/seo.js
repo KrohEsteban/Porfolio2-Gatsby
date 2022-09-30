@@ -1,55 +1,42 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+import { graphql, useStaticQuery } from "gatsby"
+import React from "react"
 
-import * as React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, title, children }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
+export default function Seo ({ title, description, pathname, children }) {
+  
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+          description
+          siteUrl
         }
       }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+    }
+  `)
+  const { title: defaultTitle, description: defaultDescription, siteUrl } = data.site.siteMetadata
+    
+  const seo = {
+    title: title || defaultTitle,
+    description: description || defaultDescription,
+    url: `${siteUrl}${pathname || ``}`,
+  }
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
-      <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={metaDescription} />
-      <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
+      <title>{seo.title}</title>
+      <meta name="description" content={seo.description} />
+
+      {/*<!-- Googel fonts para nombre -->*/}
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"></link>
+
+      {/*<-- Font Awesome -->*/}
+      <script src="https://kit.fontawesome.com/e73cef28c0.js" crossOrigin="anonymous"></script>
+      
       {children}
+
     </>
   )
 }
-
-Seo.defaultProps = {
-  description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  title: PropTypes.string.isRequired,
-}
-
-export default Seo
