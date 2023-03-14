@@ -70,5 +70,15 @@ module.exports = {
                   genera la etiqueta metadata start_url
     --------------------------------------------------------------------*/
     `gatsby-plugin-offline`,
+
+    /* -----------------------------------------------------------------
+                  crea las paginas dinamicas
+    --------------------------------------------------------------------*/
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src/pages`,
+      },
+    },
   ],
 };

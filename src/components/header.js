@@ -20,7 +20,7 @@ export default function Header() {
                     <Navbar.Collapse className = "justify-content-end" id = "basic-navbar-nav" >
                     <Nav >
                         <Link to='/' className="nav-link">Home</Link>
-                        <Link to='/rollers' className="nav-link">Rollers</Link>
+                        <Link to='/rollers' className="nav-link">Hobby</Link>
                         <Link to='/proyectos' className="nav-link">Proyectos</Link>
                     </Nav>
                     </Navbar.Collapse>

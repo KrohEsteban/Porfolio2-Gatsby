@@ -36,7 +36,7 @@ export default function Home(){
  
     <Layout>
       <div className={perfil}>
-    
+     
     
         <StaticImage src="../images/perfil.jpg" alt="Foto de perfil de Esteban Kroh" 
           className={fotoperfil}
@@ -52,7 +52,7 @@ export default function Home(){
           <div>
               <h2>Contacto: </h2>
               <h2>
-                <a href="https://www.linkedin.com/in/esteban-kroh-581ab9226/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i><p class="visually-hidden">LinkedIn</p></a>
+                <a href="https://www.linkedin.com/in/estebankroh" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i><p class="visually-hidden">LinkedIn</p></a>
                 <a href="https://api.whatsapp.com/send?phone=+542954442060&text=Hola, necesito más informacion sobre las páginas web!" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i><p class="visually-hidden">WhatsApp</p></a>
                 <a href="https://github.com/KrohEsteban" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i><p class="visually-hidden">GitHub</p></a>               
               </h2>

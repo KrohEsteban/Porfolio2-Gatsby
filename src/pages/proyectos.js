@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col';
@@ -8,30 +8,9 @@ import {gitywsp, proyectitle, cuadrocel, cuadrodescktop, proyectcard} from '../s
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 
-export default function Proyectos() {
+export default function Proyectos({data}) {
 
-  const data = useStaticQuery(graphql`
-    query {
-      dataJson {
-        project {
-          imagen {
-            childrenImageSharp {
-              gatsbyImageData (height: 870, width: 1547)
-            }
-          }
-          imagencel {
-            childrenImageSharp {
-              gatsbyImageData (width: 392, height: 698)
-            }
-          }
-          parrafo
-          stack
-          titulo
-        }
-      }
-    }
-    
-  `)
+  
 
   return (
    
@@ -54,7 +33,7 @@ export default function Proyectos() {
             <Row>
               <Col xs ="12" md="6" className="d-flex align-items-center justify-content-center">
                 <div className="text-center">
-                  <h4>{item.titulo}</h4>
+                  <h4> <Link className={gitywsp} to={item.slug}>{item.titulo}</Link> </h4>
                   <h5>{item.stack}</h5>
                   <p>{item.parrafo}</p>
                 </div>
@@ -96,3 +75,27 @@ export default function Proyectos() {
 }
 
 export const Head = () => (<Seo />)
+
+export const data = graphql`
+    query {
+      dataJson {
+        project {
+          imagen {
+            childrenImageSharp {
+              gatsbyImageData (height: 870, width: 1547)
+            }
+          }
+          imagencel {
+            childrenImageSharp {
+              gatsbyImageData (width: 392, height: 698)
+            }
+          }
+          parrafo
+          stack
+          titulo
+          slug
+        }
+      }
+    }
+    
+  `

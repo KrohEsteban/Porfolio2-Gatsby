@@ -20,6 +20,11 @@
     border: solid black 7px;
     margin: 20px;
 }
+.cuadrodescktopage{
+    border: solid black 7px;
+    margin: 20px;
+    height: 50vh;
+}
 
 .proyectcard{
     padding-top: 40px;
