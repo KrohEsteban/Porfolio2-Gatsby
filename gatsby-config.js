@@ -4,7 +4,8 @@ module.exports = {
     --------------------------------------------------------------------*/
   siteMetadata: {
     title: `Esteban Kroh, programador web.`,
-    description: `Página de perfil de Esteban Kroh, programador web de Santa Rosa, La Pampa.`,
+    description: `Soy Esteban, programador web de Santa Rosa, La Pampa. Informático por vocación y emprendedor por naturaleza, y los invito a mi web para conocerme un poco mas.`,
+    image: `src/static/favicon.png`,
     siteUrl: `https://www.estebankroh.com/`,
   },
   plugins: [

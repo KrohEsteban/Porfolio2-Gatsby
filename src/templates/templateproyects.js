@@ -34,7 +34,7 @@ export default function TemplateProyects (props) {
                 <div className="text-center">
                   <h3>{titulo}</h3>
                   <h4>{stack}</h4>
-                  <h4>{fecha}</h4>
+                  <h5>{fecha}</h5>
                   <h5><Link className={gitywsp} to={urlexterna}>{urlexterna}</Link></h5>
                   
                   <p className='pt-5 text-start '><div dangerouslySetInnerHTML={{ __html: texto }}/></p>
