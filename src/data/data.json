@@ -60,6 +60,7 @@
 
         {
         "titulo": "Clés en main",
+        "fecha": "02/2023 - 03/2023",
         "parrafo":"Actualización de página, sumandole un nuevo idioma",
         "texto":"Me contrató la empresa <a style=color:#b85b22 href=https://cocoa.group/>Cocoa Group</a> para este proyecto en particular ya qué tengo conocimientos de strapi por otros proyectos. La empresa adquirió un trabajo temporal para sumarle el idioma inglés a la página que ya se encontraba en francés. Me pasaron las traducciones y el acceso al servidor con el que podía descargar todo y hacer una copia en local para trabajar y luego subir el proyecto completado. </br> El primer inconveniente surgió al descubrir que todo se encontraba en contendores docker. Esto no hizo más que demorar una semana el proyecto y sumarme otro stack a mi curriculum. Descargue todos los contenedores, los levante en local, sume las traducciones al strapi, descargué los archivos del frontend que se encontraban dentro de un contenedor docker, los modifique y cree las nuevas páginas para mostrar las nuevas traducciones, volví a compilar el contenedor y subí el sitio para que esté online nuevamente.",
         "slug":"/clesenmine",
@@ -71,6 +72,7 @@
 
         {
         "titulo": "Segundo porfolio",
+        "fecha": "10/2022 - 02/2023",
         "parrafo":"Actualización del porfolio para poder mostrar las nuevas habilidades adquiridas de forma más ordenada.",
         "texto":"Luego de crear la página para la liga de veteranos, decidí actualizar mi porfolio con las nuevas tecnologías que he aprendido. </br> Antes solo estaba creado con html, css y js, pero quería llevarlo para el lado de los framework de react. Y como en mi anterior proyecto trabaje con nextjs, cree este nuevo porfolio con gatsbyjs para aprender un nuevo framework y sumar otro stack a mi currículum.",
         "slug":"/segundoporfolio",
@@ -82,6 +84,7 @@
 
         {
         "titulo": "Liga de veteranos",
+        "fecha": "02/2022 - 02/2023",
         "parrafo":"Pagina para la liga de veteranos de La Pampa para poder publicar los resultados desde un sistema de administración.",
         "texto":"La liga de veteranos fue mi primer proyecto real y con el que he crecido muchísimo. </br> En un principio lo comencé con react y firebase, esto me ayudo a afianzarme en estas dos tecnologías, pero a su vez me llevo más tiempo de lo pensado. Por ello, después de un tiempo, cambié el backend a strapi para avanzar más rápido poder terminar el proyecto completo. Luego de tener el proyecto online decidí cambiar nuevamente el backend, ya que strapi consume muchos recursos y por consiguiente el hosting es más caro. Por lo tanto, cree nuevamente todo el proyecto completo con nextjs y mongodb como base de datos. </br> Este fue uno de mis proyectos más grandes y me llevo a aprender mucho y a prepararme para todo lo que se viene.",
         "slug":"/ligaveteranos",
@@ -93,6 +96,7 @@
 
         {
         "titulo": "Primer porfolio",
+        "fecha": "01/2022 - 02/2023",
         "parrafo":"Mi primer porfolio, creado para demostrar mis conocimientos web de manera mas explicita.",
         "texto":"Luego de un tiempo de venir aprendiendo programación web de forma autodidáctica, me di cuenta de que ya estaba preparado para poder trabajar y aportar lo mío a proyectos reales. </br> Por ello cree este porfolio, con el objetivo de mostrar lo que he aprendido y demostrar lo que puedo lograr.",
         "slug":"/primerporfolio",
@@ -104,6 +108,7 @@
 
         {
         "titulo": "Blog de café",
+        "fecha": "11/2021 - 12/2021",
         "parrafo":"Otro de mis primeros proyectos creados como practica. Simula una blog de café con cursos.",
         "texto":"Una de mis primeras prácticas. La realicé en un curso de diseño web en la UTN y este es uno de sus primeros proyectos. El curso era básico, comenzamos con html, css y js, luego pasamos a react y por último algo de node. </br> Lo dejé a mitad de camino, ya que teníamos clases una vez por semana y era mucho más lo que aprendía como autodidacta que lo que me enseñaban en el mismo.",
         "slug":"/blogcafe",
@@ -115,6 +120,7 @@
 
         {
         "titulo": "Tienda de muebles",
+        "fecha": "09/2021 - 10/2021",
         "parrafo":"Uno de mis primeros proyectos creados como practica. Simula una tienda de muebles",
         "texto":"Una de mis primeras prácticas. La realicé en un curso de diseño web en la UTN y este es uno de sus primeros proyectos. El curso era básico, comenzamos con html, css y js, luego pasamos a react y por último algo de node. </br> Lo dejé a mitad de camino, ya que teníamos clases una vez por semana y era mucho más lo que aprendía como autodidacta que lo que me enseñaban en el mismo.",
         "slug":"/tiendamuebles",

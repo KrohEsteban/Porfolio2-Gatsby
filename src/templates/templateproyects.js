@@ -2,7 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { Link } from 'gatsby'
-import {gitywsp, proyectitle, cuadrocel, cuadrodescktop, proyectcard} from '../styles/proyectos.module.css'
+import {gitywsp, cuadrocel, cuadrodescktop, proyectcard} from '../styles/proyectos.module.css'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Col, Container, Row } from 'react-bootstrap'
 
@@ -10,7 +10,7 @@ export default function TemplateProyects (props) {
   
 
   const {pageContext} = props
-  const {titulo, parrafo, stack, texto, urlexterna, imagen, imagencel} = pageContext
+  const {titulo, stack, texto, urlexterna, imagen, imagencel, fecha} = pageContext
 
   const image=getImage(imagen.childrenImageSharp[0].gatsbyImageData)
   const imagecel=getImage(imagencel.childrenImageSharp[0].gatsbyImageData)
@@ -34,6 +34,7 @@ export default function TemplateProyects (props) {
                 <div className="text-center">
                   <h3>{titulo}</h3>
                   <h4>{stack}</h4>
+                  <h4>{fecha}</h4>
                   <h5><Link className={gitywsp} to={urlexterna}>{urlexterna}</Link></h5>
                   
                   <p className='pt-5 text-start '><div dangerouslySetInnerHTML={{ __html: texto }}/></p>

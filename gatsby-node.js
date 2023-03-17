@@ -21,6 +21,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                     stack
                     texto
                     urlexterna
+                    fecha
                     imagen {
                         childrenImageSharp {
                           gatsbyImageData 
@@ -49,6 +50,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: TemplateProyects,
       context: {
         slug: item.slug,
+        fecha: item.fecha,
         titulo: item.titulo,
         parrafo: item.parrafo,
         stack: item.stack,
