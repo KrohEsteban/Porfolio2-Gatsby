@@ -80,3 +80,48 @@
     }
     
 }
+
+.handwriting{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    transition: all 1s ease;
+    transition-delay: 1s;
+
+}
+
+.handwriting ::shadow ::after ::before{
+    stroke: #d4d3d3 !important ;
+    color-scheme: #d4d3d3 !important ; 
+    color: #d4d3d3 !important ;
+}
+
+.handwriting svg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.handwriting svg .texto{
+    stroke-dasharray: 9000;
+    stroke-dashoffset: 9000;
+    animation: animacion 7s linear 1 forwards;
+}
+
+@keyframes animacion {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+.animacionopacidad{
+    opacity: 0;
+    animation: animacionopacity 4s linear 1 forwards;
+}
+
+@keyframes animacionopacity {
+    to{
+        opacity: 1;
+    }
+}

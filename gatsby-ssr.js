@@ -6,6 +6,12 @@
  * Agrega etiqueta "lang = es" en el html
  */
 
+const React = require("react")
+
 exports.onRenderBody = ({ setHtmlAttributes }) => {
+
   setHtmlAttributes({ lang: `es` })
+
+  
 }
+
