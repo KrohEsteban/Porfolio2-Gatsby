@@ -57,30 +57,6 @@
     text-align: center;
 }
 
-@media (max-width: 550px){
-   
-    .textoperfil h1{
-        font-size: 400%;
-    }
-     
-    .textoperfil h2{
-        font-size: 200%;
-    }
-
-}    
-
-@media (max-width: 386px){
-
-    .textoperfil h1{
-        font-size: 300%;
-    }
-     
-    .textoperfil h3{
-        font-size: 200%;
-    }
-    
-}
-
 .handwriting{
     margin: 0 auto;
     padding: 20px;
@@ -125,3 +101,36 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 550px){
+
+    .handwriting{
+        max-width: 400px;
+    }
+   
+    .textoperfil h1{
+        font-size: 400%;
+    }
+     
+    .textoperfil h2{
+        font-size: 200%;
+    }
+
+}    
+
+@media (max-width: 386px){
+
+    .handwriting{
+        max-width: 300px;
+    }
+
+    .textoperfil h1{
+        font-size: 300%;
+    }
+     
+    .textoperfil h3{
+        font-size: 200%;
+    }
+    
+}
+
