@@ -34,19 +34,19 @@
         {
         "titulo": "Pasión",
         "parrafo":"La pasión mueve montañas.",
-        "imagen": "../images/roller-1.jpg"
+        "imagen": "../images/roller-1.webp"
         },
         
         {
         "titulo": "Compromiso",
         "parrafo":"El compromiso hace al crecimiento.",
-        "imagen": "../images/roller-2.jpg"
+        "imagen": "../images/roller-2.webp"
         },
         
         {
         "titulo": "Trascendecia",
         "parrafo":"El futuro lo creamos nosotros.",
-        "imagen": "../images/roller-3.jpg"
+        "imagen": "../images/roller-3.webp"
         }
         
     ],
@@ -66,8 +66,8 @@
         "slug":"/clesenmine",
         "urlexterna":"https://clesenmain.com",
         "stack":"Docker - Strapi - Nextjs",
-        "imagen": "../images/clesenmine.jpg",
-        "imagencel": "../images/clesenmine-celu.jpg"
+        "imagen": "../images/clesenmine.webp",
+        "imagencel": "../images/clesenmine-celu.webp"
         },
 
         {
@@ -78,8 +78,8 @@
         "slug":"/segundoporfolio",
         "urlexterna":"https://www.estebankroh.com",
         "stack":"Gatsby",
-        "imagen": "../images/segundo-porfolio.jpg",
-        "imagencel": "../images/segundo-porfolio-celu.jpg"
+        "imagen": "../images/segundo-porfolio.webp",
+        "imagencel": "../images/segundo-porfolio-celu.webp"
         },
 
         {
@@ -90,20 +90,20 @@
         "slug":"/ligaveteranos",
         "urlexterna":"https://ligaveteranos.onrender.com",
         "stack":"Next - MongoDB",
-        "imagen": "../images/liga-veteranos.jpg",
-        "imagencel": "../images/liga-veteranos-celu.jpg"
+        "imagen": "../images/liga-veteranos.webp",
+        "imagencel": "../images/liga-veteranos-celu.webp"
         },
 
         {
         "titulo": "Primer porfolio",
-        "fecha": "01/2022 - 02/2023",
+        "fecha": "01/2022 - 02/2022",
         "parrafo":"Mi primer porfolio, creado para demostrar mis conocimientos web de manera mas explicita.",
         "texto":"Luego de un tiempo de venir aprendiendo programación web de forma autodidáctica, me di cuenta de que ya estaba preparado para poder trabajar y aportar lo mío a proyectos reales. </br> Por ello cree este porfolio, con el objetivo de mostrar lo que he aprendido y demostrar lo que puedo lograr.",
         "slug":"/primerporfolio",
         "urlexterna":"https://estebankrohprimerporfolio.onrender.com",
         "stack":"HTML - CSS - Javascript",
-        "imagen": "../images/primer-porfolio.jpg",
-        "imagencel": "../images/primer-porfolio-celu.jpg"
+        "imagen": "../images/primer-porfolio.webp",
+        "imagencel": "../images/primer-porfolio-celu.webp"
         },
 
         {
@@ -114,8 +114,8 @@
         "slug":"/blogcafe",
         "urlexterna":"https://blogcafe.onrender.com",
         "stack":"HTML - CSS - Javascript",
-        "imagen": "../images/blog-cafe.jpg",
-        "imagencel": "../images/blog-cafe-celu.jpg"
+        "imagen": "../images/blog-cafe.webp",
+        "imagencel": "../images/blog-cafe-celu.webp"
         },
 
         {
@@ -126,8 +126,8 @@
         "slug":"/tiendamuebles",
         "urlexterna":"https://tiendademuebles.onrender.com",
         "stack":"HTML - CSS",
-        "imagen": "../images/tienda-muebles.jpg",
-        "imagencel": "../images/tienda-muebles-celu.jpg"
+        "imagen": "../images/tienda-muebles.webp",
+        "imagencel": "../images/tienda-muebles-celu.webp"
         }
 
     ]

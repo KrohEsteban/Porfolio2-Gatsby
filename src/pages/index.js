@@ -42,7 +42,7 @@ export default function Home(){
      
         <div className={animacionopacidad}>
 
-          <StaticImage src="../images/perfil.jpg" alt="Foto de perfil de Esteban Kroh" 
+          <StaticImage src="../images/perfil.webp" alt="Foto de perfil de Esteban Kroh" 
           className={fotoperfil }
           placeholder="none"
           layout="fixed"
