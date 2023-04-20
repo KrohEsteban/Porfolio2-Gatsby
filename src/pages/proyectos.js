@@ -20,6 +20,7 @@ export default function Proyectos({data}) {
         <p>Estos son algunos de los proyectos en los que he trabajado en este ultimo tiempo.</p>
         <p>Podes encontrar los proyectos en la plataforma de Git Hub : <a className={gitywsp} href="https://github.com/KrohEsteban">https://github.com/KrohEsteban</a></p>
         <p>Por cualquier consulta me pueden escribir al whatsapp personal: <a className={gitywsp} href="https://api.whatsapp.com/send?phone=+542954442060&text=Hola, necesito más informacion sobre las páginas web!" target="_blank" rel="noopener noreferrer">+542954442060</a></p>
+        <p>O mandarme un correo a: <a className={gitywsp} href="mailto:krohesteban@gmail.com?Subject=Me%20contacto%20desde%20su%20página%20web" target="_blank" rel="noopener noreferrer">krohesteban@gmail.com</a></p>
       </div>
 
     {data.dataJson.project.map((item)=>{

@@ -211,6 +211,39 @@
 }
 
 
+.matrix{
+    position: static;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100vw;
+    background-color: black;
+    color: #0F0;
+    overflow: hidden;
+    font-size: 1em;
+    z-index: -1;
+    font-family: monospace;
+    transform: rotate(90deg);
+}
+
+.bordermatrix{
+    height:200px;
+    overflow: hidden;
+    border: #beb8b8 1px solid;
+    border-radius:5px;
+}
+
+.contactostuweb{
+    text-align: center;
+}
+
+.contactostuweb i{
+    padding: 20px;
+    color: #d4d3d3;
+}
+
+
+
 @media (max-width: 550px){
 
     .handwriting{
