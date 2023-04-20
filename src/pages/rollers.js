@@ -2,32 +2,14 @@ import React from 'react'
 import Layout from '../components/layout'
 import Carousel from 'react-bootstrap/Carousel';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import {  graphql, useStaticQuery } from 'gatsby';
+import {  graphql} from 'gatsby';
 import Seo from '../components/seo';
 
 
 
-export default function Rollers() {
+export default function Rollers({data}) {
   
-  const data = useStaticQuery(graphql`
-    query {
-      dataJson {
-        rollercarrousel {
-          titulo
-          parrafo
-          imagen {
-            childrenImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-        rollertext {
-          title
-          body
-        }
-      }
-    }
-  `)
+
 
 
   return (
@@ -36,6 +18,7 @@ export default function Rollers() {
       <Carousel style={{padding:"20px", maxWidth:"800px", margin:"0 auto"}}>
       {data.dataJson.rollercarrousel.map((item)=>{
         const image=getImage(item.imagen.childrenImageSharp[0].gatsbyImageData)
+        
         return(
           <Carousel.Item key={item.titulo} className='box'>
           <GatsbyImage image={image} alt={item.titulo} 
@@ -67,3 +50,23 @@ export default function Rollers() {
 }
 
 export const Head = () => (<Seo />)
+
+export const data = graphql`
+query {
+  dataJson {
+    rollercarrousel {
+      titulo
+      parrafo
+      imagen {
+        childrenImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    rollertext {
+      title
+      body
+    }
+  }
+}
+`

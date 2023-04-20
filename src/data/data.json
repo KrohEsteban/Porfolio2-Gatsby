@@ -1,8 +1,22 @@
 {
     "presentacion":[
         {
-            "title":"Buscas programador? Contactame!",
-        "body": "<p>El objetivo de contratar buenos profesionales es poder tener la tranquilidad que van a hacer el trabajo igual que el dueño de la empresa. </p><p> Soy Esteban, programador de 29 años de Santa Rosa, La Pampa. Me considero informático por vocación y emprendedor por naturaleza y puedo dar esa tranquilidad. </p><p> Soy autodidacta, tengo la capacidad de poder aprender constantemente en este ámbito tan cambiante. Amo programar y quiero poder crear las mejores aplicaciones para tu empresa, siempre enfocadas en el usuario final. </p><p> Actualmente estoy enfocado en la programacion web, me encanta trabajar con react y sus frameworks y quiero ayudar a empresas con sus trabajos. </p><p> Mi hobbie es patinar, así como me enamoré de la programación también me enamoré de los rollers y doy clases de rollers en Urban Rollers La Pampa hace ya varios años. </p><p> Actualmente, en el desarrollo web tengo conocimientos amplios en diferentes tecnologías y una base sólida en la lógica de programación. </p>"
+        "title":"Buscas programador? Contactame!",
+
+        "body": "<p> Soy Esteban Kroh, programador web de Santa Rosa, La Pampa. Informático por vocación y emprendedor por naturaleza, contáctame para completar tus proyectos! </p><p>Como programador web apasionado por mi trabajo, mi objetivo es ayudar a tu empresa a destacar en el mundo digital. Con amplios conocimientos en diferentes tecnologías y una sólida base en la lógica de programación, puedo ofrecerte soluciones personalizadas que se adapten a tus necesidades y a las de tus clientes. </p><p>Con mi enfoque en la calidad y la satisfacción del usuario final, trabajo con las últimas tecnologías para crear aplicaciones web modernas y atractivas. Si necesitas una página web desde cero, una actualización de la existente o una integración de sistemas, estaré encantado de discutir tus objetivos y llevarlos a cabo de manera eficiente. </p><p>Mi hobbie es patinar, así como me enamoré de la programación también me enamoré de los rollers y doy clases de rollers en Urban Rollers La Pampa hace ya varios años. Además, mi experiencia como profe de rollers me ha enseñado la importancia de la paciencia, la perseverancia y la creatividad en cada proyecto. Si estás buscando un programador web comprometido y entusiasta para tu equipo, ¡no dudes en contactarme! </p></br>",
+        
+        "frase":"El objetivo de contratar buenos profesionales es poder tener la tranquilidad que van a hacer el trabajo como si fueran dueños de la empresa.",
+        
+        "button1":"¿Sos emprendedor y querés una página para tu negocio?</br>Acá tenés info!",
+        "button2":"¿Sos parte de una empresa y buscás colaboradores?</br>Acá tenés info sobre mis aptitudes!"
+    
+        }
+        
+    ],
+
+    "aptitudes":[
+        {
+            "texto":"<p>Como programador web, cuento con una amplia variedad de habilidades y conocimientos que me permiten llevar a cabo proyectos innovadores y de calidad. En mi trayectoria, he desarrollado aplicaciones web en diferentes lenguajes de programación, tales como JavaScript, HTML, CSS, y he trabajado con frameworks como React y Node.js.</p><p>Mi experiencia no solo se limita al desarrollo web, sino también a la integración con distintas plataformas, bases de datos y sistemas de pago.</p><p>Para ver algunos de mis trabajos y proyectos personales, puedes visitar mi perfil en GitHub en el siguiente enlace: <a style='color: #b85b22' href='https://github.com/KrohEsteban'>https://github.com/KrohEsteban.</a></p><p>Si estás en busca de un programador web comprometido y apasionado por su trabajo, no dudes en contactarme. Estoy siempre dispuesto a colaborar en nuevos proyectos y desafíos.</p>"
         }
     ],
 
@@ -19,12 +33,17 @@
         },
                 
         {
-        "stack": "Firebase - Strapi",
+        "stack": "Wordpress - Strapi - Payload",
         "progress": "70"
         },
 
         {
-        "stack": "Node - Express - MongoDb - Docker",
+        "stack": "Firebase - MongoDb",
+        "progress": "40"
+        },
+
+        {
+        "stack": "Node - Express  - Docker",
         "progress": "25"
         }
     ],

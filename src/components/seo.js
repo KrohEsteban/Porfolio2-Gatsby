@@ -33,8 +33,9 @@ export default function Seo ({ title, description, pathname, children }) {
       <meta name="image" content={seo.image} />
 
       {/*<!-- Googel fonts para nombre -->*/}
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>  
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"></link>
 
       {/*<-- Font Awesome -->*/}
       <script src="https://kit.fontawesome.com/e73cef28c0.js" crossOrigin="anonymous"></script>

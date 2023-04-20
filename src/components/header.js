@@ -13,15 +13,18 @@ export default function Header() {
     <>
         <header>
           
-            <Navbar expand="sm" className='navbar-dark bg-primary'>
+            <Navbar expand="md" className='navbar-dark bg-primary'>
                 <Container fluid="sm">
                     <Link className="navbar-brand"  to='/'><h1 className={textoperfil}>Esteban Kroh</h1></Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className = "justify-content-end" id = "basic-navbar-nav" >
                     <Nav >
                         <Link to='/' className="nav-link">Home</Link>
-                        <Link to='/rollers' className="nav-link">Hobby</Link>
+                        <Link to='/aptitudes' className="nav-link">Aptitudes</Link> 
+                        <Link to='/tu-web' className="nav-link">Tu Web</Link>
                         <Link to='/proyectos' className="nav-link">Proyectos</Link>
+                        <Link to='/rollers' className="nav-link">Hobby</Link>
+                        
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
