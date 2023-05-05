@@ -78,6 +78,17 @@
     "project":[
 
         {
+        "titulo": "Costuras Deco",
+        "fecha": "03/2023 - 04/2023",
+        "parrafo":"Creacion de E-comerce en Wordpress",
+        "texto":"Me contactó una empresaria local con el objetivo de realizar su página web. El objetivo fue poder crear un E-commerce conectado a mercado pago para poder cobrar por el mismo. Hante esto se puede realizar de muchas maneras, pero como tambíen requería algo económico, por lo tanto decidimos crear la web con Wordpress.",
+        "slug":"/costurasdeco",
+        "urlexterna":"https://costurasdeco.com",
+        "stack":"Wordpress",
+        "imagen": "../images/CosturasDeco.webp",
+        "imagencel": "../images/CosturasDeco-celu.webp"
+        },
+        {
         "titulo": "Clés en main",
         "fecha": "02/2023 - 03/2023",
         "parrafo":"Actualización de página, sumandole un nuevo idioma",
